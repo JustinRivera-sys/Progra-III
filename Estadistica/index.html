@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resolutor de Problemas de Estadística</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Iconos opcionales -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="bg-primary text-white text-center py-4 mb-4 shadow">
+    <h1 class="display-6">Resolutor de Problemas de Estadística</h1>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="container">
+    <!-- Navegación por pestañas -->
+    <ul class="nav nav-tabs mb-4" id="tabs-estadistica" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#descriptiva" type="button" role="tab">Estadística Descriptiva</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cuadrados" type="button" role="tab">Cuadrados Mínimos</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#hipotesis" type="button" role="tab">Pruebas de Hipótesis</button>
+      </li>
+    </ul>
+
+    <!-- Contenido de las pestañas -->
+    <div class="tab-content">
+
+      <!-- Estadística Descriptiva -->
+      <section class="tab-pane fade show active" id="descriptiva" role="tabpanel" aria-labelledby="descriptiva-tab">
+        <div class="card shadow-sm p-4">
+          <h2 class="h5 mb-3">Estadística Descriptiva</h2>
+          <div class="mb-3">
+            <label for="datos-desc" class="form-label">Datos (separados por comas o espacios):</label>
+            <textarea id="datos-desc" class="form-control" rows="3" placeholder="Ejemplo: 10, 15, 20, 15, 7"></textarea>
+          </div>
+          <button class="btn btn-success w-100" onclick="calcularDescriptiva()">
+            <i class="bi bi-bar-chart-line"></i> Calcular
+          </button>
+          <pre class="mt-3 p-3 bg-light border rounded" id="resultado-desc" aria-live="polite"></pre>
+          <canvas id="grafica-descriptiva" height="150" class="mt-3"></canvas>
+        </div>
+      </section>
+
+      <!-- Cuadrados Mínimos -->
+      <section class="tab-pane fade" id="cuadrados" role="tabpanel" aria-labelledby="cuadrados-tab">
+        <div class="card shadow-sm p-4">
+          <h2 class="h5 mb-3">Método de los Cuadrados Mínimos</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="datos-x" class="form-label">Valores de X:</label>
+              <textarea id="datos-x" class="form-control" rows="2" placeholder="Ejemplo: 1, 2, 3, 4, 5"></textarea>
+            </div>
+            <div class="col-md-6">
+              <label for="datos-y" class="form-label">Valores de Y:</label>
+              <textarea id="datos-y" class="form-control" rows="2" placeholder="Ejemplo: 2, 4, 5, 4, 5"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-success w-100 mt-3" onclick="calcularCuadradosMinimos()">
+            <i class="bi bi-graph-up"></i> Calcular
+          </button>
+
+          <div class="mt-3">
+            <h3 class="h6">Ecuación de la recta:</h3>
+            <p id="ecuacion-recta" class="mb-2 text-primary fw-bold">---</p>
+
+            <label for="x-prediccion" class="form-label">Predecir Y dado X:</label>
+            <input type="number" class="form-control" id="x-prediccion" placeholder="Ingresa un valor de X" oninput="predecirValorY()" />
+
+            <p class="mt-2" id="resultado-prediccion">Y ≈ ---</p>
+            <canvas id="grafica-cuadrados" height="100"></canvas>
+
+            <div class="text-center mt-3">
+              <button class="btn btn-outline-primary me-2" onclick="downloadChart('png')">
+                <i class="bi bi-image"></i> Descargar PNG
+              </button>
+              <button class="btn btn-outline-danger" onclick="downloadChart('pdf')">
+                <i class="bi bi-file-earmark-pdf"></i> Descargar PDF
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Pruebas de Hipótesis -->
+      <section class="tab-pane fade" id="hipotesis" role="tabpanel" aria-labelledby="hipotesis-tab">
+        <div class="card shadow-sm p-4">
+          <h2 class="h5 mb-3">Pruebas de Hipótesis (Z y T)</h2>
+          <small class="text-muted mb-3 d-block">Realiza pruebas de hipótesis sobre la media.</small>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Media de la muestra (x̄):</label>
+              <input type="number" class="form-control" id="media-muestra" step="any" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Media poblacional (μ₀):</label>
+              <input type="number" class="form-control" id="media-poblacion" step="any" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Desviación estándar (σ o s):</label>
+              <input type="number" class="form-control" id="desv-estandar" min="0" step="any" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Tamaño de la muestra (n):</label>
+              <input type="number" class="form-control" id="tamaño-muestra" min="1" step="1" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Nivel de significancia (α):</label>
+              <input type="number" class="form-control" id="nivel-significancia" min="0" max="1" step="0.01" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Tipo de prueba:</label>
+              <select id="tipo-prueba" class="form-select">
+                <option value="z">Z (σ conocida)</option>
+                <option value="t">T (σ desconocida)</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Tipo de cola:</label>
+              <select id="cola-prueba" class="form-select">
+                <option value="two">Bilateral</option>
+                <option value="right">Unilateral derecha</option>
+                <option value="left">Unilateral izquierda</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn btn-success w-100 mt-4" onclick="calcularPruebaHipotesis()">
+            <i class="bi bi-calculator"></i> Calcular
+          </button>
+
+          <pre class="mt-3 p-3 bg-light border rounded" id="resultado-hipo" aria-live="polite"></pre>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="funciones.js"></script>
+</body>
+</html>

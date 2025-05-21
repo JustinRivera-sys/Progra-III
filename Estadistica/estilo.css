@@ -1,0 +1,155 @@
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #2c3e50;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #2f80ed;
+  color: white;
+  padding: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Main content */
+main {
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  width: 95%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Sections */
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
+
+/* Titles */
+h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Labels & form controls */
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+input, select, textarea {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccd1d9;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #2f80ed;
+  box-shadow: 0 0 4px rgba(47, 128, 237, 0.5);
+}
+
+/* Button */
+button.calc-btn {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.9rem;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button.calc-btn:hover {
+  background-color: #2566c7;
+  transform: translateY(-2px);
+}
+
+/* Result box */
+.result {
+  margin-top: 2rem;
+  background: #eaf4ff;
+  border-left: 5px solid #2f80ed;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #2c3e50;
+  white-space: pre-wrap;
+}
+
+/* Small text */
+small {
+  color: #7f8c8d;
+  font-size: 0.85rem;
+}
+
+/* Responsive - small screens */
+@media (max-width: 480px) {
+  main {
+    padding: 1rem;
+  }
+
+  header {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  button.calc-btn {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+
+.chart-container {
+  position: relative;
+  max-width: 100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+}
