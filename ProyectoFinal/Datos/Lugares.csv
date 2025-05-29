@@ -1,0 +1,191 @@
+Identificador,Nombre,Tipo,Latitud,Longitud,Precio,Calificacion promedio,Tiempo estimado de estadia
+1,Tikal,Turístico,17.2220,-89.6237,150,4.8,5
+2,Antigua Guatemala,Turístico,14.5560,-90.7330,0,4.9,4
+3,Lago de Atitlan,Turístico,14.7000,-91.2000,0,4.9,6
+4,Semuc Champey,Turístico,15.5333,-89.9667,50,4.7,5
+5,Volcan de Pacaya,Turístico,14.3811,-90.6014,30,4.6,4
+6,Chichicastenango,Turístico,14.9431,-91.1113,0,4.5,3
+7,Livingston,Turístico,15.8300,-88.7500,0,4.4,4
+8,Playa Blanca,Turístico,15.8232,-88.7444,25,4.3,3
+9,Quetzaltenango,Turístico,14.8341,-91.5182,0,4.5,3
+10,Zaculeu,Turístico,15.3184,-91.4706,20,4.2,2
+11,Volcan Acatenango,Turístico,14.5014,-90.8761,40,4.9,8
+12,Volcan Tajumulco,Turístico,15.0428,-91.9014,25,4.7,8
+13,Cerro de la Cruz,Turístico,14.5665,-90.7295,0,4.8,1
+14,Reserva Natural Atitlan,Turístico,14.7039,-91.1576,35,4.7,3
+15,Basalica del Cristo Negro de Esquipulas,Turístico,14.5671,-89.3548,0,4.5,2
+16,Parque Central de Antigua,Turístico,14.5568,-90.7349,0,4.7,1
+17,Castillo de San Felipe,Turístico,15.6440,-89.0013,20,4.6,2
+18,El Mirador,Turístico,17.7667,-89.9500,200,4.9,6
+19,Grutas del Rey Marcos,Turístico,15.1765,-90.2923,30,4.3,3
+20,Cueva de Candelaria,Turístico,15.7921,-89.9771,35,4.4,3
+21,Museo Ixchel del Traje Indigena,Turístico,14.6090,-90.5112,20,4.5,2
+22,Museo Popol Vuh,Turístico,14.6094,-90.5115,20,4.6,2
+23,Parque Nacional Las Victorias,Turístico,15.4789,-90.3763,15,4.2,2
+24,Biotopo del Quetzal,Turístico,15.1886,-90.2847,25,4.5,3
+25,Iximche,Turístico,14.7378,-90.9942,25,4.4,2
+26,Mixco Viejo,Turístico,14.8949,-90.8846,15,4.3,2
+27,Volcan de Agua,Turístico,14.4641,-90.7511,20,4.6,5
+28,Museo Nacional de Arqueologia y Etnologi­a,Turístico,14.6113,-90.5142,15,4.4,2
+29,La Aurora Zoo,Turístico,14.5886,-90.5311,40,4.7,3
+30,IRTRA Mundo Petapa,Turístico,14.5907,-90.5513,50,4.6,4
+31,IRTRA Xetulul,Turístico,14.6436,-91.6044,75,4.8,5
+32,IRTRA Xocomil,Turístico,14.6429,-91.6039,75,4.7,5
+33,Volcan Santiaguito,Turístico,14.7514,-91.5636,0,4.3,4
+34,Parque Nacional Yaxha,Turístico,17.0651,-89.3998,80,4.6,4
+35,Playa El Paredon,Turístico,13.9119,-90.7998,0,4.5,3
+36,Pasajcap Mirador,Turístico,14.7064,-91.2133,0,4.6,2
+37,San Juan La Laguna,Turístico,14.7102,-91.2856,0,4.7,3
+38,Santa Catarina Palopo,Turístico,14.7351,-91.1102,0,4.6,2
+39,San Pedro La Laguna,Turístico,14.6944,-91.2691,0,4.7,3
+40,Panajachel,Turístico,14.7409,-91.1551,0,4.6,3
+41,Reserva Tzankujil,Turístico,14.7087,-91.2729,10,4.8,2
+42,Rio Dulce,Turístico,15.6561,-88.9979,0,4.7,4
+43,Volcan Chicabal,Turístico,14.8278,-91.5986,15,4.5,3
+44,Laguna Brava,Turístico,15.8854,-91.7657,0,4.6,3
+45,Las Conchas,Turístico,15.9510,-89.5981,20,4.5,3
+46,El Boqueron,Hospedaje,15.8278,-89.9944,15,4.3,2
+47,Museo del Ferrocarril,Turístico,14.6416,-90.5073,10,4.2,1
+48,Torre del Reformador,Turístico,14.6207,-90.5181,0,4.1,1
+49,Parque Erick Barrondo,Turístico,14.6295,-90.5409,0,4.3,2
+50,Museo Miraflores,Turístico,14.6091,-90.5590,25,4.5,2
+51,Mirador Rey Tepepul,Turístico,14.5406,-91.1042,10,4.5,2
+52,Laguna de Lemoa,Turístico,14.8783,-91.0828,0,4.2,2
+53,Chicabal Lagoon,Turístico,14.8278,-91.5986,15,4.5,3
+54,Las Fuentes Georginas,Hospedaje,14.7832,-91.5411,35,4.6,3
+55,Volcan San Pedro,Turístico,14.7239,-91.2700,30,4.7,4
+56,Volcan Toliman,Turístico,14.6883,-91.2230,20,4.4,4
+57,Volcan Atitlan,Turístico,14.6081,-91.1406,25,4.6,4
+58,Laguna Magdalena,Turístico,15.5900,-91.7744,10,4.6,3
+59,Los Amates,Turístico,15.6350,-89.0000,0,4.4,2
+60,La Cuevita,Turístico,15.5363,-89.9611,5,4.3,1
+61,Piedras Negras,Turístico,17.2500,-90.8500,100,4.5,4
+62,Uaxactun,Turístico,17.4000,-89.6333,90,4.6,3
+63,La Democracia,Turístico,14.0500,-90.7833,0,4.2,1
+64,Centro Cultural Miguel Angel Asturias,Turístico,14.6211,-90.5236,20,4.5,2
+65,Mercado Central,Turístico,14.6346,-90.5146,0,4.2,2
+66,Teatro Nacional de Guatemala,Turístico,14.6212,-90.5235,20,4.6,2
+67,Parque Naciones Unidas,Turístico,14.4678,-90.6698,25,4.4,3
+68,Parque Zoologico Minerva,Turístico,14.8436,-91.5135,10,4.3,2
+69,Museo de los Niños,Turístico,14.5980,-90.5239,20,4.5,2
+70,Catedral Metropolitana,Turístico,14.6379,-90.5136,0,4.6,1
+71,Plaza Mayor de la Constitucion,Turístico,14.6378,-90.5135,0,4.4,1
+72,Museo del Ejercito,Turístico,14.6372,-90.5110,15,4.3,2
+73,Grutas de Lanquin,Hospedaje,15.5897,-89.9623,30,4.5,3
+74,Centro de Formacion de la Cooperacion Española,Turístico,14.5583,-90.7332,0,4.7,2
+75,Puente de Gualan,Turístico,15.1133,-89.3586,0,4.2,1
+76,Centro Historico Zona 1,Turístico,14.6333,-90.5167,0,4.5,3
+77,Museo del Holocausto,Turístico,14.6105,-90.5108,10,4.3,1
+78,Biblioteca Nacional,Turístico,14.6347,-90.5138,0,4.4,1
+79,Jardin Botanico Jardines de la Aurora,Turístico,14.5911,-90.5325,15,4.5,2
+80,Centro Comercial Oakland Mall,Turístico,14.6083,-90.5222,0,4.6,3
+81,Mall Pradera,Turístico,14.6300,-90.5141,0,4.5,3
+82,Catedral de Quetzaltenango,Turístico,14.8386,-91.5186,0,4.6,2
+83,Monumento al Migrante,Turístico,14.6094,-90.5256,0,4.4,1
+84,Teatro Municipal de Quetzaltenango,Turístico,14.8411,-91.5181,15,4.6,2
+85,Las Cataratas Los Amates,Turístico,15.6354,-89.0010,0,4.3,2
+86,Cascada El Salto,Turístico,15.3011,-91.4944,0,4.4,2
+87,Museo del Mar,Turístico,13.9256,-90.8194,10,4.2,1
+88,Biocentro La Aurora,Turístico,14.5895,-90.5302,20,4.3,2
+89,Museo de Historia Natural,Turístico,14.5915,-90.5281,15,4.4,2
+90,Cine Lux,Turístico,14.6359,-90.5139,15,4.4,2
+91,Monumento a los Proceres,Turístico,14.6110,-90.5189,0,4.3,1
+92,Parque de la Industria,Turístico,14.6150,-90.5222,0,4.5,2
+93,Kaminaljuyu,Turístico,14.6115,-90.5500,10,4.5,2
+94,Zona Viva,Turístico,14.6056,-90.5133,0,4.6,3
+95,Volcan Fuego,Turístico,14.4731,-90.8801,0,4.7,4
+96,Parque Ecologico Florencia,Turístico,14.5944,-90.6272,15,4.4,2
+97,Parque Nacional Sipacate Naranjo,Turístico,13.9333,-91.2000,20,4.5,3
+98,Ciudad de Guatemala,Turístico,14.6349,-90.5069,0,4.5,3
+99,Sendero del Quetzal,Turístico,15.1800,-90.3000,0,4.6,3
+100,Volcan Cerro Quemado,Turístico,14.8019,-91.5461,0,4.5,4
+101,Hotel Camino Real, Hospedaje,14.6091,-90.5152,120,4.7,2
+102,Barceló Guatemala City, Hospedaje,14.6103,-90.5145,110,4.6,2
+103,Hotel Posada de Don Rodrigo, Hospedaje,14.5561,-90.7353,90,4.5,2
+104,Hotel Atitlán, Hospedaje,14.7411,-91.1539,95,4.6,2
+105,Hotel Casa Santo Domingo, Hospedaje,14.5604,-90.7290,150,4.8,2
+106,Hotel Clarion Suites, Hospedaje,14.6090,-90.5147,100,4.5,2
+107,Hotel Panamerican, Hospedaje,14.6344,-90.5130,60,4.3,2
+108,Hotel La Union, Hospedaje,14.8370,-91.5170,45,4.2,2
+109,Hotel Real Plaza, Hospedaje,14.8405,-91.5181,55,4.4,2
+110,Hostal Hermano Pedro, Hospedaje,14.5592,-90.7305,35,4.1,2
+111,Hostal Las Marias, Hospedaje,14.5569,-90.7342,40,4.3,2
+112,Hotel Dos Mundos, Hospedaje,14.7406,-91.1561,65,4.4,2
+113,Porta Hotel Antigua, Hospedaje,14.5599,-90.7300,120,4.7,2
+114,Hotel San Buenaventura de Atitlán, Hospedaje,14.7345,-91.1460,80,4.4,2
+115,Hotel Toliman, Hospedaje,14.6832,-91.2304,55,4.5,2
+116,La Casa del Mundo, Hospedaje,14.7071,-91.2100,75,4.8,2
+117,Hotel Villa Caribe, Hospedaje,15.8285,-88.7502,90,4.4,2
+118,Dos Mundos Pacific Resort, Hospedaje,13.9108,-90.8011,110,4.6,2
+119,Hotel y Restaurante La Cabaña de Don Robert, Hospedaje,14.7043,-91.1550,40,4.3,2
+120,Hotel Casa Palopó, Hospedaje,14.7251,-91.1110,180,4.9,2
+121,Hotel El Delfin, Hospedaje,13.9203,-90.8019,35,4.3,2
+122,Hostel Fe, Hospedaje,14.6932,-91.2709,30,4.4,2
+123,Hotel Sak'cari El Amanecer, Hospedaje,14.6947,-91.2678,45,4.2,2
+124,Mikaso Hotel, Hospedaje,14.6940,-91.2687,40,4.3,2
+125,Hotel Regis Spa, Hospedaje,14.7391,-91.1530,70,4.4,2
+126,Lush Atitlán, Hospedaje,14.7109,-91.2842,100,4.7,2
+127,Posada Don Rodrigo Panajachel, Hospedaje,14.7408,-91.1555,75,4.5,2
+128,Hotel Peten Esplendido, Hospedaje,16.9176,-89.8805,85,4.4,2
+129,Hotel Isla de Flores, Hospedaje,16.9274,-89.8890,90,4.6,2
+130,Hotel Casa Amelia, Hospedaje,16.9272,-89.8892,50,4.5,2
+131,Las Lagunas Boutique Hotel, Hospedaje,16.9345,-89.8301,200,4.8,2
+132,Hotel Casona del Lago, Hospedaje,16.9275,-89.8803,95,4.5,2
+133,Hotel Villa Santa Catarina, Hospedaje,14.7330,-91.1105,65,4.4,2
+134,Hostal Vagamundo, Hospedaje,14.8402,-91.5163,20,4.2,2
+135,Hotel El Meson Panza Verde, Hospedaje,14.5539,-90.7324,140,4.6,2
+136,Hotel Boutique Los Pasos, Hospedaje,14.5548,-90.7294,130,4.7,2
+137,Hotel Lo de Bernal, Hospedaje,14.5600,-90.7335,95,4.5,2
+138,Hotel Meson del Valle, Hospedaje,14.5567,-90.7310,80,4.4,2
+139,Hotel Palacio de Doña Leonor, Hospedaje,14.5585,-90.7297,150,4.8,2
+140,Hotel Soleil Antigua, Hospedaje,14.5480,-90.7283,100,4.4,2
+141,Hotel Posada de la Luna, Hospedaje,14.5550,-90.7325,55,4.3,2
+142,Hotel Monoloco, Hospedaje,13.9169,-90.7972,25,4.2,2
+143,Eco-Hotel Uxlabil Atitlán, Hospedaje,14.7051,-91.2148,45,4.4,2
+144,Hotel El Amanecer Sak’cari, Hospedaje,14.6939,-91.2681,40,4.4,2
+145,Hotel Mayaland, Hospedaje,14.8406,-91.5142,30,4.3,2
+146,Hotel Santa María, Hospedaje,14.8334,-91.5156,25,4.1,2
+147,Hotel Sumo, Hospedaje,14.8412,-91.5179,20,4.0,2
+148,Hotel Black Cat, Hospedaje,14.8380,-91.5158,15,4.2,2
+149,Hotel Pasaje Enriquez, Hospedaje,14.8383,-91.5182,35,4.3,2
+150,Hotel Mayan Inn, Hospedaje,14.9438,-91.1119,55,4.5,2
+151,Mirador Juan Diéguez Olaverri,Turístico,15.0217,-91.4519,0,4.7,2
+152,Mirador Santa Apolonia,Turístico,14.7708,-91.0525,0,4.5,1
+153,Playa Tilapa,Turístico,14.5361,-92.1675,0,4.4,3
+154,Parque Ecológico Hun Nal Ye,Turístico,15.4711,-90.1950,50,4.8,4
+155,Sendero Las Escobas,Turístico,15.6486,-88.9853,15,4.5,3
+156,Finca El Pilar,Turístico,14.5364,-90.7291,30,4.7,2
+157,Parque Nacional Trifinio,Turístico,14.4762,-89.1854,20,4.6,4
+158,Volcán Ipala,Turístico,14.5583,-89.6325,25,4.4,3
+159,Volcán Suchitán,Turístico,14.4847,-89.6192,20,4.3,3
+160,Laguna de Ayarza,Turístico,14.3977,-90.0675,0,4.6,3
+161,Laguna de Chicabalito,Turístico,14.8300,-91.5900,10,4.2,2
+162,Cueva del Diablo,Turístico,15.1792,-90.2506,10,4.1,2
+163,Mirador de Cumbre de Alaska,Turístico,14.9086,-91.4475,0,4.5,1
+164,Laguna de Sepalau,Turístico,15.8200,-89.9167,0,4.4,2
+165,Poza Verde,Turístico,15.4708,-89.7972,5,4.3,2
+166,Cascada El Paraíso,Turístico,15.3167,-89.4833,10,4.6,3
+167,Cataratas de Tatasirire,Turístico,14.9267,-91.3325,15,4.5,3
+168,Cerro San Gil,Turístico,15.6481,-89.0011,0,4.7,3
+169,Finca El Injerto,Turístico,15.3172,-91.4639,50,4.8,2
+170,Sendero La Cumbre,Turístico,15.6031,-89.9636,0,4.3,2
+171,Balneario Chijulhá,Turístico,14.8386,-91.5086,10,4.2,2
+172,Centro Cultural La Azotea,Turístico,14.5567,-90.7411,20,4.6,2
+173,Cascadas Las Escaleras,Turístico,15.8025,-89.7892,5,4.4,3
+174,Balneario Agua Caliente,Turístico,14.5900,-89.8750,15,4.2,2
+175,Mirador Cerro El Baúl,Turístico,14.8325,-91.5250,0,4.5,1
+176,Cerro El Reformador,Turístico,15.0167,-89.7500,0,4.3,2
+177,Ruinas de Zaculeu Viejo,Turístico,15.3050,-91.4600,10,4.3,2
+178,Casa Museo Domingo Estrada,Turístico,14.5578,-90.7331,10,4.6,1
+179,Museo del Café La Azotea,Turístico,14.5580,-90.7412,25,4.7,2
+180,Rancho Alegre Ecoparque,Turístico,14.7550,-91.5183,20,4.5,3
+181,Cerro El Mirador de Rabinal,Turístico,15.0975,-90.4869,0,4.4,2
+182,Centro Arqueológico Cotzumalguapa,Turístico,14.3036,-91.0278,15,4.6,2
+183,Parque Nacional Volcán Tacaná,Turístico,15.1356,-92.0781,0,4.7,4
+184,Petén Itzá Lake Viewpoint,Turístico,16.9311,-89.8922,0,4.6,2
+185,Mirador El Calvario,Turístico,14.8322,-91.5178,0,4.3,1
+186,Rancho Tzununá,Turístico,14.7075,-91.2586,30,4.7,2
+187,Ruinas de Topoxte,Turístico,17.0658,-89.3986,25,4.6,2
+188,Playa Quehueche,Turístico,15.8256,-88.7475,0,4.5,3
+189,Cuevas de Jobtzinaj,Turístico,15.0344,-91.4597,10,4.4,2
+190,Ruta de los Volcanes,Turístico,14.4700,-90.8800,0,4.7,5
